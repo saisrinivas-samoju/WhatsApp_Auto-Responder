@@ -1,0 +1,148 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "wish",
+      "patterns": ["Good Morning", "Good Afternoon", "Good Evening"],
+      "responses": [
+        "What's up?", "Good to hear from you!", "Sup?", "Howdy?", "How’s it going?",
+        "What’s happening?", "What’s new?", "Anything new with you?", "What’s new with you?", "How are you?",
+        "Any excitement recently?", "What are you up to?", "What you doing?", "Whatcha doin’?", "What’s cookin’?",
+        "What’s shaking?","What’s sizzlin’?", "What’s crackin’?", "What’s poppin’?", "What’s shakin’ bacon?",
+        "How have you been?","How’s life treating you?", "Hey there!", "What’s up buttercup?", "Well hello there!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later",
+        "Have a nice day",
+        "Bye! See you soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": [":-)", "Any time!", "My pleasure"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {
+      "tag": "can",
+      "patterns": ["What can you do?", "How can you help me?", "What can you do for me?", "What do you know?"],
+      "responses": ["I can do some basic talks!", "I can tell you jokes"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": ["It sure takes a lot of balls to golf the way I do.",
+        "I was wondering why the ball kept getting bigger and bigger, and then it hit me.",
+        "The person who invented knock-knock jokes should get a no bell prize.",
+        "The other day I asked the banker to check my balance, so she pushed me.",
+        "For a while, Houdini would use a trap door in every single one of his shows. I guess you could say he was going through a stage.",
+        "I hope there's no pop quiz on the class trip to the Coca-Cola factory.",
+        "If money doesn't grow on trees, how come banks have branches?",
+        "I didn't like my beard at first, but it grew on me.",
+        "Give me the calculator. Friends don't let friends derive drunk.",
+        "A baseball walks into a bar, and the bartender throws it out.",
+        "I doubt, therefore, I might be.",
+        "I used to have a handle on life, but then it broke.",
+        "I had an 'hourglass' figure, but then the sand shifted.",
+        "When everything is coming your way — you're in the wrong lane.",
+        "one liner jokes: happy homer simpson",
+        "Animal testing is a terrible idea because they get all nervous and give the wrong answers.",
+        "'I was playing chess with my friend and he said, ‘Let's make this interesting'. So we stopped playing chess.' — Matt Kirshen",
+        "'Crime in multi-story car parks. That is wrong on so many different levels.' — Tim Vine",
+        "'I was raised as an only child, which really annoyed my sister.' — Will Marsh",
+        "'People who use selfie sticks really need to have a good, long look at themselves.' — Abi Roberts",
+        "'A thesaurus is great. There's no other word for it.' — Ross Smith",
+        "'Two fish in a tank. One says, ‘How do you drive this thing?'' — Peter Kay",
+        "'I saw a documentary on how ships are kept together. Riveting!' — Stewart Francis",
+        "'People who like trance music are very persistent. They don't techno for an answer.' — Joel Dommett",
+        "'Do Transformers get car or life insurance?' — Russell Howard",
+        "'My father drank so heavily, when he blew on the birthday cake he lit the candles.' — Les Dawson",
+        "I once saw two people wrapped in a barcode and had to ask, 'Are you an item?'",
+        "I went to buy camouflage trousers, but I couldn't find any.",
+        "'Alright lads, a giant fly is attacking the police station. I've called the SWAT team!' — Greg Davies",
+        "'I usually meet my girlfriend at 12:59 because I like that one-to-one time.' — Tom Ward",
+        "'I like a woman with a head on her shoulders. I hate necks.' — Steve Martin",
+        "My husband and I were happy for 20 years. And then we met.",
+        "I, for one, like Roman numerals.",
+        "When my boss asked me who was stupid, me or him, I told him he doesn't hire stupid people.",
+        "Every married person should forget their mistakes. There's no point in two people remembering the same thing.",
+        "My wife told me to stop impersonating a flamingo. I had to put my foot down.",
+        "I have an inferiority complex, but it's not a very good one.",
+        "People tell me I'm condescending. (Leans in real close) That means I talk down to people.",
+        "'By the time a man is wise enough to watch his step, he is too old to go anywhere.' — Billy Crystal",
+        "'Proof that we don't understand death is that we give dead people a pillow.' — Jerry Seinfeld",
+        "'Don't talk to me about Valentine's Day. At my age, an affair of the heart is a bypass.' — Joan Rivers",
+        "'Learning to dislike children at an early age saves a lot of expense and aggravation later in life.' — Ed Byrne",
+        "'I failed math so many times in school I lost count.' — Stewart Francis",
+        "'Oh, when I was a kid in show business, I was poor. I used to go to orgies to eat the grapes.' — Rodney Dangerfield",
+        "'In the school I went to, they asked a kid to prove the law of gravity and he threw the teacher out of the window.' — Rodney Dangerfield",
+        "'I looked up my family tree and found three dogs using it.' — Rodney Dangerfield",
+        "'One time my whole family played hide and seek. They found my mother in Pittsburgh!' — Rodney Dangerfield",
+        "'I met the surgeon general. He offered me a cigarette.' — Rodney Dangerfield",
+        "I ate a clock yesterday, and it was very time-consuming.",
+        "A perfectionist walked into a bar — apparently, the bar wasn't set high enough.",
+        "A termite walks into the bar and asks, 'Is the bar tender here?'",
+        "Just burned 2,000 calories. That's the last time I leave brownies in the oven while I nap.",
+        "Always borrow money from a pessimist; they'll never expect it back.",
+        "I want to die peacefully in my sleep, like my grandfather. Not screaming and yelling like the passengers in his car.",
+        "Don't you hate it when someone answers their own questions? I do.",
+        "My therapist says I have a preoccupation with revenge. We'll see about that.",
+        "I told my girlfriend she drew her eyebrows too high. She seemed surprised.",
+        "What happens to a frog's car when it breaks down? It gets toad away.",
+        "'Employee of the month is a good example of how somebody can be both a winner and a loser at the same time.' — Demetri Martin",
+        "'When I was a boy, I laid in my twin-sized bed and wondered where my brother was.' — Mitch Hedberg",
+        "'My drug test came back negative. My dealer sure has some explaining to do.' — Unknown",
+        "What vitamin helps you to see? Vitamin C.",
+        "Why did the burglar rob a bakery? He needed the dough.",
+        "Why wouldn't the sesame seed leave the casino? He was on a roll.",
+        "I put my grandma on speed dial. I call that Instagram.",
+        "Why did the scarecrow win an award? He was outstanding in his field.",
+        "I was wondering why the frisbee kept getting bigger and bigger…",
+        "Then it hit me.",
+        "Whiteboards are remarkable.",
+        "How do you make holy water? You boil the hell out of it.",
+        "I went to a seafood disco last week. I pulled a mussel.",
+        "I bought the world's worst thesaurus yesterday. Not only is it terrible, but it's also terrible.",
+        "Life is like a diploma. As in my parents keep telling me to get one.",
+        "Did you hear about the ATM that got addicted to money? It suffered from withdrawals.",
+        "What goes, 'Oh, oh, oh'? Santa walking backward.",
+        "What do you call a sleeping dinosaur? A dino-snore.",
+        "Why did the picture go to jail? Because it was framed.",
+        "Have you played the updated kids' game? I spy with my little eye…phone.",
+        "Did you hear about the crook who stole a calendar? He got 12 months.",
+        "I asked the IT guy, 'How do you make a motherboard?' and he said, 'I tell her about my job.'",
+        "Why are art collectors such big fans of gasoline? Because it makes their Van Gogh.",
+        "'The first time I met my wife, I knew she was a keeper. She was wearing massive gloves.' — Alun Cochrane",
+        "'My therapist says I have a preoccupation with vengeance. We'll see about that.'' — Stewart Francis",
+        "'I don't suffer from insanity — I enjoy every minute of it.'",
+        "'The last thing I want to do is hurt you; but it's still on the list.'"]
+    }
+  ]
+}
